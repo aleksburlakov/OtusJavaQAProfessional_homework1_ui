@@ -29,10 +29,6 @@ public class CoursesCatalogPage extends AnyPageAbs<CoursesCatalogPage> {
   @FindBy(xpath = "//div[text() = 'Каталог']/ancestor::section[1]//a[contains(@href, '/lessons/')]/h6/div")
   private List<WebElement> coursesNames;
 
-  @FindBy(xpath = "//div[text() = 'Каталог']/ancestor::section[1]//a[contains(@href, '/lessons/')]"
-      + "/div[2]/div/div[starts-with(text(), '3') or starts-with(text(), '2') or starts-with(text(), '1') or starts-with(text(), '0')]")
-  private List<WebElement> coursesDates;
-
   @FindBy(xpath = "//div[text() = 'Каталог']/ancestor::section[1]//a[contains(@href, '/lessons/')]")
   private List<WebElement> courses;
 
