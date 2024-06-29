@@ -28,11 +28,6 @@ public class ActionsListener implements WebDriverListener {
                 origin));
   }
 
-  @Override
-  public void beforeClick(WebElement webElement) {
-
-  }
-
   @SuppressWarnings("unchecked")
   private List<WebElement> getOrigins(Sequence sequence) {
     Map<String, Object> encodedSequence = sequence.encode();
