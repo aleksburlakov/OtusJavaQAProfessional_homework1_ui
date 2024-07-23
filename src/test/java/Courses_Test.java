@@ -7,7 +7,7 @@ import pages.CoursesCatalogPage;
 @ExtendWith(UiExtension.class)
 public class Courses_Test {
   @Inject
-  CoursesCatalogPage coursesCatalog;
+  private CoursesCatalogPage coursesCatalog;
 
   @Test
   public void findCourseTest() {

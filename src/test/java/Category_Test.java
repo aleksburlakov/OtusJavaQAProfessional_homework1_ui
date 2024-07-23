@@ -9,10 +9,10 @@ import pages.MainPage;
 public class Category_Test {
 
   @Inject
-  MainPage mainPage;
+  private MainPage mainPage;
 
   @Inject
-  HeaderMenu headerMenu;
+  private HeaderMenu headerMenu;
 
   @Test
   public void checkCategoryTest() {

@@ -57,5 +57,5 @@
 
 
 ## Инструкция по запуску
-1. pom.xml В элементе properties найти элемент <browser.version>, указать версисю браузера GoogleChrome
+1. pom.xml В элементе properties найти элемент <browser.version>, указать версию браузера GoogleChrome
 2. Запуск тестов производится командой mvn clean test -P=id_профиля    
